@@ -1,0 +1,28 @@
+.app {
+  min-height: 100vh;
+  font-family: system-ui, sans-serif;
+}
+
+.nav {
+  display: flex;
+  gap: 16px;
+  padding: 16px 24px;
+  background: #1a1a2e;
+}
+
+.nav a {
+  color: #e0e0e0;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+}
+
+.nav a:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.main {
+  padding: 24px;
+  max-width: 960px;
+  margin: 0 auto;
+}
